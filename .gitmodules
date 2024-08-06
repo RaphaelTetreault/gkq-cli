@@ -1,3 +1,6 @@
 [submodule "libs/GameCube.GKQ"]
 	path = libs/GameCube.GKQ
 	url = https://github.com/RaphaelTetreault/GameCube.GKQ
+[submodule "libs/Manifold.Core"]
+	path = libs/Manifold.Core
+	url = ../Manifold.Core.git
