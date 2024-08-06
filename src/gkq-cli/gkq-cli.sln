@@ -5,6 +5,26 @@ VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gkq-cli", "gkq-cli.csproj", "{4E422FE5-D12A-4966-84D4-AF0B48AE348F}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameCube.Cheats", "..\..\libs\GameCube.Core\src\GameCube.Cheats\GameCube.Cheats.csproj", "{9C6C02E4-F822-4E28-BF1B-9470BD68F12C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameCube.Common", "..\..\libs\GameCube.Core\src\GameCube.Common\GameCube.Common.csproj", "{6DBE953F-A635-4DAC-9427-222AF9E8B8A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameCube.DiskImage", "..\..\libs\GameCube.Core\src\GameCube.DiskImage\GameCube.DiskImage.csproj", "{26889DC9-02CA-4D41-9C08-B011178FB1DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameCube.GCI", "..\..\libs\GameCube.Core\src\GameCube.GCI\GameCube.GCI.csproj", "{7044044A-FBBD-496D-BF38-E8E9AFF96524}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameCube.GX", "..\..\libs\GameCube.Core\src\GameCube.GX\GameCube.GX.csproj", "{E3EBF85A-9ADD-4D31-B6F4-B29B31D8718D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameCube.GX.Texture", "..\..\libs\GameCube.Core\src\GameCube.GX.Texture\GameCube.GX.Texture.csproj", "{E4FFB524-3FA5-4A2C-929B-3DA8135173B8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Manifold", "..\..\libs\Manifold.Core\src\Manifold\Manifold.csproj", "{03D690BA-01CF-4980-9508-6999C5E27B33}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Manifold.IO", "..\..\libs\Manifold.Core\src\Manifold.IO\Manifold.IO.csproj", "{A507A80F-9265-48FB-9ACF-9D141A039D05}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Manifold.Spline", "..\..\libs\Manifold.Core\src\Manifold.Spline\Manifold.Spline.csproj", "{C8F7E8B2-7C80-4E0E-9DCD-FEFA4F69D34F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Manifold.Text.Tables", "..\..\libs\Manifold.Core\src\Manifold.Text.Tables\Manifold.Text.Tables.csproj", "{BF1F2ECF-1223-457E-BD80-408FDD04FDB3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +35,46 @@ Global
 		{4E422FE5-D12A-4966-84D4-AF0B48AE348F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E422FE5-D12A-4966-84D4-AF0B48AE348F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E422FE5-D12A-4966-84D4-AF0B48AE348F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C6C02E4-F822-4E28-BF1B-9470BD68F12C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C6C02E4-F822-4E28-BF1B-9470BD68F12C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C6C02E4-F822-4E28-BF1B-9470BD68F12C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C6C02E4-F822-4E28-BF1B-9470BD68F12C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DBE953F-A635-4DAC-9427-222AF9E8B8A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DBE953F-A635-4DAC-9427-222AF9E8B8A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DBE953F-A635-4DAC-9427-222AF9E8B8A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DBE953F-A635-4DAC-9427-222AF9E8B8A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26889DC9-02CA-4D41-9C08-B011178FB1DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26889DC9-02CA-4D41-9C08-B011178FB1DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26889DC9-02CA-4D41-9C08-B011178FB1DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26889DC9-02CA-4D41-9C08-B011178FB1DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7044044A-FBBD-496D-BF38-E8E9AFF96524}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7044044A-FBBD-496D-BF38-E8E9AFF96524}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7044044A-FBBD-496D-BF38-E8E9AFF96524}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7044044A-FBBD-496D-BF38-E8E9AFF96524}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3EBF85A-9ADD-4D31-B6F4-B29B31D8718D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3EBF85A-9ADD-4D31-B6F4-B29B31D8718D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3EBF85A-9ADD-4D31-B6F4-B29B31D8718D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3EBF85A-9ADD-4D31-B6F4-B29B31D8718D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4FFB524-3FA5-4A2C-929B-3DA8135173B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4FFB524-3FA5-4A2C-929B-3DA8135173B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4FFB524-3FA5-4A2C-929B-3DA8135173B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4FFB524-3FA5-4A2C-929B-3DA8135173B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03D690BA-01CF-4980-9508-6999C5E27B33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03D690BA-01CF-4980-9508-6999C5E27B33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03D690BA-01CF-4980-9508-6999C5E27B33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03D690BA-01CF-4980-9508-6999C5E27B33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A507A80F-9265-48FB-9ACF-9D141A039D05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A507A80F-9265-48FB-9ACF-9D141A039D05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A507A80F-9265-48FB-9ACF-9D141A039D05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A507A80F-9265-48FB-9ACF-9D141A039D05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8F7E8B2-7C80-4E0E-9DCD-FEFA4F69D34F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8F7E8B2-7C80-4E0E-9DCD-FEFA4F69D34F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8F7E8B2-7C80-4E0E-9DCD-FEFA4F69D34F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8F7E8B2-7C80-4E0E-9DCD-FEFA4F69D34F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF1F2ECF-1223-457E-BD80-408FDD04FDB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF1F2ECF-1223-457E-BD80-408FDD04FDB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF1F2ECF-1223-457E-BD80-408FDD04FDB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF1F2ECF-1223-457E-BD80-408FDD04FDB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
