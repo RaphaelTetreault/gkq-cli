@@ -4,3 +4,6 @@
 [submodule "libs/Manifold.Core"]
 	path = libs/Manifold.Core
 	url = ../Manifold.Core.git
+[submodule "libs/GameCube.Core"]
+	path = libs/GameCube.Core
+	url = ../GameCube.Core.git
